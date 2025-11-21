@@ -254,18 +254,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"contracts/QuanteraMainnet.sol": {
-			"keccak256": "0xde2f7a19a80b7b0dd8452913bdd7985c7e5db721b4aaa4d83868c0b1aa3ec9f0",
+			"keccak256": "0xe2e6c19ad6990c6924535a1e64b73d2597d451107a84a6fb9b96643fa91d494e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://01f73686bcb503281faf7a8413ce267438882fe707bc0f3857c78ce6a8c4bed0",
-				"dweb:/ipfs/QmP2JwPthiDNnCs9mUKeYCWKbid98VB6zKA8Yu2b6wNuNA"
+				"bzz-raw://b50a45db64a92b930ca95f94ea3ac6c9131746f632cf31ac18995aba55b322bb",
+				"dweb:/ipfs/QmZHVSxrx35pBC6YefLuHCmJBHMfndsnESPx6ni6ebMu6d"
 			]
 		}
 	},
