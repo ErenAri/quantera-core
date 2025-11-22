@@ -128,38 +128,13 @@ Quantera will research:
 
 ---
 
-# 📄 Whitepaper
+# Whitepaper
 
-### **📘 Official Whitepaper (Web3 Edition) — PDF**  
+### ** Official Whitepaper (Web3 Edition) — PDF**  
 [Download Quantera Whitepaper (PDF)](whitepaper/Quantera_Whitepaper_Web3.pdf)
 
-### **📄 Markdown Version**  
+### ** Markdown Version**  
 [View Quantera Whitepaper (MD)](whitepaper/Quantera_Whitepaper.md)
-
----
-
-# Repository Structure
-
-```
-quantera-core/
-│
-├── README.md
-├── LICENSE
-│
-├── contracts/
-│   └── QuanteraToken.sol
-│
-├── whitepaper/
-│   ├── Quantera_Whitepaper_Web3.pdf
-│   └── Quantera_Whitepaper.md
-│
-├── docs/
-│   ├── tokenomics_v1.md
-│   └── roadmap_v1.md
-│
-└── assets/
-    └── logo.png
-```
 
 ---
 
