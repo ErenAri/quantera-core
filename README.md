@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/logo.png" width="120" />
-</p>
-
 <h1 align="center">Quantera (QNR)</h1>
 
 <p align="center">
@@ -184,4 +180,4 @@ This project is licensed under the **MIT License**.
 
 - Website: Coming soon  
 - Documentation Hub: Coming soon  
-
+- [Etherscan](https://etherscan.io/token/0x38b8725a048fa851508bb1566ce9946f3486b309)
