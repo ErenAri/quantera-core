@@ -1,28 +1,104 @@
-REMIX DEFAULT WORKSPACE
+# Quantera (QNR) Whitepaper v1
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+*Next-gen modular Web3 ecosystem token.**  
+Contract: 0x38b8725a048Fa851508bB1566Ce9946F3486b309  
 
-This workspace contains 3 directories:
+## 1. Introduction
+Quantera (QNR) is a next-generation utility and governance token designed to evolve from an ERC-20 asset into the economic backbone of a modular Web3 ecosystem. Inspired by modern architectures such as Aptos, Celestia, and Optimism, Quantera focuses on scalability, security, and transparent token economics.
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+## 2. Vision
+Quantera aims to build a future ecosystem powered by:
+- Community-driven governance
+- Sustainable staking economics
+- A revenue-sharing model
+- Future Layer-1 / Layer-2 expansion
+- Secure multi-sig controlled treasury
 
-SCRIPTS
+## 3. Token Overview
+- **Name:** Quantera  
+- **Symbol:** QNR  
+- **Standard:** ERC-20  
+- **Supply:** 1,000,000,000 QNR (fixed)  
+- **Contract:** 0x38b8725a048Fa851508bB1566Ce9946F3486b309  
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+## 4. Core Utility
+### 4.1 Governance
+Holders vote on proposals, treasury allocation, ecosystem grants, and potential burn mechanisms.
 
-For the deployment of any other contract, just update the contract name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+### 4.2 Staking
+QNR staking rewards long-term participants and secures future Quantera infrastructure.
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+### 4.3 Ecosystem Access
+QNR unlocks:
+- Launchpad tiers
+- Premium analytics
+- Reduced platform fees
+- Special event access
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+## 5. Token Distribution
+| Category | % | Tokens | Vesting |
+|---------|---|--------|---------|
+| Liquidity & MM | 10% | 100M | Unlocked (LP locked) |
+| Community | 20% | 200M | 4-year linear |
+| Staking Rewards | 25% | 250M | 8–10 year emissions |
+| Team | 15% | 150M | 1-year cliff + 3-year vest |
+| Strategic Partners | 10% | 100M | 10% TGE + 2-year vest |
+| Treasury & Ecosystem | 15% | 150M | Multi-sig |
+| Reserve | 5% | 50M | Locked |
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+## 6. Architecture
+### 6.1 Multi-Sig Treasury
+Quantera uses a Gnosis Safe for secure management of ecosystem funds.
+
+### 6.2 Vesting Contracts
+All team, investor, and reserve allocations are time-locked using transparent smart contracts.
+
+### 6.3 Future L1/L2 Upgrade Path
+Quantera will explore:
+- Rollup frameworks
+- Modular execution layers
+- Native staking economics
+- Cross-chain bridges
+
+## 7. Launch Strategy
+### Phase 0: Foundation (0–3 Months)
+- Contract deployment and verification
+- Tokenomics release
+- Website + branding
+- Community channels
+- Initial audits
+
+### Phase 1: Ecosystem MVP 
+- Staking dApp
+- Analytics dashboard
+- Airdrop + quest campaigns
+- Partnerships
+
+### Phase 2: DeFi Layer 
+- Launchpad
+- Yield products
+- Buyback & burn model
+- Staking v2
+
+### Phase 3: Chain Evolution 
+- Quantera Chain (L1/L2)
+- Native QNR staking token
+- Validator model
+- Slashing rules
+- Native gas and fee economy
+
+## 8. Economics & Sustainability
+QNR adopts a sustainable model:
+- Fixed supply
+- Long-term staking emissions
+- Treasury-backed ecosystem growth
+- Optional fee-sharing mechanisms
+
+## 9. Risk Factors
+- Market volatility  
+- Smart contract vulnerabilities  
+- Regulatory uncertainty  
+- Liquidity fragmentation  
+
+## 10. Conclusion
+Quantera aims to grow into a modular, community-driven blockchain ecosystem with transparent tokenomics, long-term sustainability, and global accessibility.
