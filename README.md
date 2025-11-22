@@ -1,104 +1,187 @@
-# Quantera (QNR) Whitepaper v1
+<p align="center">
+  <img src="assets/logo.png" width="120" />
+</p>
 
-*Next-gen modular Web3 ecosystem token.**  
-Contract: 0x38b8725a048Fa851508bB1566Ce9946F3486b309  
+<h1 align="center">Quantera (QNR)</h1>
 
-## 1. Introduction
-Quantera (QNR) is a next-generation utility and governance token designed to evolve from an ERC-20 asset into the economic backbone of a modular Web3 ecosystem. Inspired by modern architectures such as Aptos, Celestia, and Optimism, Quantera focuses on scalability, security, and transparent token economics.
+<p align="center">
+  Next-generation modular Web3 ecosystem token.
+</p>
 
-## 2. Vision
-Quantera aims to build a future ecosystem powered by:
-- Community-driven governance
-- Sustainable staking economics
-- A revenue-sharing model
-- Future Layer-1 / Layer-2 expansion
-- Secure multi-sig controlled treasury
+<p align="center">
+  <strong>Contract:</strong> 0x38b8725a048Fa851508bB1566Ce9946f3486b309  
+</p>
 
-## 3. Token Overview
-- **Name:** Quantera  
-- **Symbol:** QNR  
-- **Standard:** ERC-20  
-- **Supply:** 1,000,000,000 QNR (fixed)  
-- **Contract:** 0x38b8725a048Fa851508bB1566Ce9946F3486b309  
+<p align="center">
+  <a href="https://etherscan.io/address/0x38b8725a048Fa851508bB1566Ce9946f3486b309#code">
+    <img src="https://img.shields.io/badge/Etherscan-Verified-blue.svg" />
+  </a>
+  <img src="https://img.shields.io/badge/Network-Ethereum%20Mainnet-black" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
 
-## 4. Core Utility
-### 4.1 Governance
-Holders vote on proposals, treasury allocation, ecosystem grants, and potential burn mechanisms.
+---
 
-### 4.2 Staking
-QNR staking rewards long-term participants and secures future Quantera infrastructure.
+# Overview
 
-### 4.3 Ecosystem Access
+**Quantera (QNR)** is a next-generation Web3 utility and governance token designed to evolve from an ERC-20 asset into the economic backbone of a modular, scalable, community-driven blockchain ecosystem.
+
+Inspired by modern projects such as **Aptos, Celestia, Optimism, and Modular Rollups**, Quantera aims to unify security, governance, staking, and ecosystem incentives under a transparent economic model.
+
+Quantera is currently deployed and verified on **Ethereum Mainnet** and will power future Quantera applications and decentralized infrastructure.
+
+---
+
+# Token Details
+
+| Field | Value |
+|------|-------|
+| **Name** | Quantera |
+| **Symbol** | QNR |
+| **Standard** | ERC-20 |
+| **Chain** | Ethereum Mainnet |
+| **Total Supply** | 1,000,000,000 QNR (fixed) |
+| **Contract Address** | `0x38b8725a048Fa851508bB1566Ce9946f3486b309` |
+| **Minting** | None |
+| **Burning** | Manual (no internal burn function) |
+| **Ownership** | Owner = Deployer wallet (migration plan in progress) |
+
+---
+
+# Utility
+
+### **1. Governance**
+Holders vote on:
+- Treasury allocation  
+- Ecosystem funding  
+- Burn proposals  
+- Protocol upgrades  
+
+### **2. Staking**
+QNR will support:
+- Staking rewards  
+- Validator staking (future L1/L2)  
+- Governance incentives  
+
+### **3. Ecosystem Access**
 QNR unlocks:
-- Launchpad tiers
-- Premium analytics
-- Reduced platform fees
-- Special event access
+- Launchpad allocation tiers  
+- Early access to Quantera Apps  
+- Premium analytics  
+- Reduced platform fees  
 
-## 5. Token Distribution
+---
+
+# Tokenomics v1
+
 | Category | % | Tokens | Vesting |
-|---------|---|--------|---------|
-| Liquidity & MM | 10% | 100M | Unlocked (LP locked) |
-| Community | 20% | 200M | 4-year linear |
-| Staking Rewards | 25% | 250M | 8–10 year emissions |
-| Team | 15% | 150M | 1-year cliff + 3-year vest |
-| Strategic Partners | 10% | 100M | 10% TGE + 2-year vest |
-| Treasury & Ecosystem | 15% | 150M | Multi-sig |
-| Reserve | 5% | 50M | Locked |
+|----------|----|---------|---------|
+| Liquidity & Market Making | 10% | 100,000,000 | Unlocked (LP locked separately) |
+| Community & Airdrops | 20% | 200,000,000 | 4-year linear |
+| Staking Rewards | 25% | 250,000,000 | 8–10 years |
+| Team Allocation | 15% | 150,000,000 | 1-year cliff + 3 years |
+| Strategic Partners | 10% | 100,000,000 | 10% TGE + 2-year linear |
+| Treasury & Ecosystem | 15% | 150,000,000 | Multi-sig (Gnosis Safe) |
+| Reserve / Burn Allocation | 5% | 50,000,000 | Locked |
 
-## 6. Architecture
-### 6.1 Multi-Sig Treasury
-Quantera uses a Gnosis Safe for secure management of ecosystem funds.
+---
 
-### 6.2 Vesting Contracts
-All team, investor, and reserve allocations are time-locked using transparent smart contracts.
+# Architecture & Security
 
-### 6.3 Future L1/L2 Upgrade Path
-Quantera will explore:
-- Rollup frameworks
-- Modular execution layers
-- Native staking economics
-- Cross-chain bridges
+### **Multi-Sig Treasury**
+Quantera uses a **Gnosis Safe multi-signature** wallet for future treasury operations.
 
-## 7. Launch Strategy
-### Phase 0: Foundation (0–3 Months)
-- Contract deployment and verification
-- Tokenomics release
-- Website + branding
-- Community channels
-- Initial audits
+### **Vesting Contracts**
+Team, partner, and reserve allocations will be locked in **transparent on-chain vesting schedules**.
 
-### Phase 1: Ecosystem MVP 
-- Staking dApp
-- Analytics dashboard
-- Airdrop + quest campaigns
-- Partnerships
+### **L1/L2 Evolution**
+Quantera will research:
+- Modular execution layers  
+- Optimistic & ZK-rollup frameworks  
+- Native staking token design  
+- Cross-chain bridges  
 
-### Phase 2: DeFi Layer 
-- Launchpad
-- Yield products
-- Buyback & burn model
-- Staking v2
+---
 
-### Phase 3: Chain Evolution 
-- Quantera Chain (L1/L2)
-- Native QNR staking token
-- Validator model
-- Slashing rules
-- Native gas and fee economy
+# Roadmap
 
-## 8. Economics & Sustainability
-QNR adopts a sustainable model:
-- Fixed supply
-- Long-term staking emissions
-- Treasury-backed ecosystem growth
-- Optional fee-sharing mechanisms
+### **Phase 0 — Foundation **
+- Contract deployment + verification  
+- Whitepaper v1  
+- Branding + website  
+- Community channels  
+- Initial audits  
 
-## 9. Risk Factors
-- Market volatility  
-- Smart contract vulnerabilities  
-- Regulatory uncertainty  
-- Liquidity fragmentation  
+### **Phase 1 — Ecosystem MVP **
+- Staking dApp v1  
+- Token dashboard  
+- Airdrops + quests  
+- Partners & integrations  
 
-## 10. Conclusion
-Quantera aims to grow into a modular, community-driven blockchain ecosystem with transparent tokenomics, long-term sustainability, and global accessibility.
+### **Phase 2 — DeFi Layer **
+- Quantera Launchpad  
+- Yield products  
+- Buyback & burn model  
+- Staking v2  
+
+### **Phase 3 — Chain Evolution **
+- Quantera Chain (L1 or L2)  
+- Native QNR staking  
+- Validator model + slashing  
+- Full ecosystem expansion  
+
+---
+
+# 📄 Whitepaper
+
+### **📘 Official Whitepaper (Web3 Edition) — PDF**  
+[Download Quantera Whitepaper (PDF)](whitepaper/Quantera_Whitepaper_Web3.pdf)
+
+### **📄 Markdown Version**  
+[View Quantera Whitepaper (MD)](whitepaper/Quantera_Whitepaper.md)
+
+---
+
+# Repository Structure
+
+```
+quantera-core/
+│
+├── README.md
+├── LICENSE
+│
+├── contracts/
+│   └── QuanteraToken.sol
+│
+├── whitepaper/
+│   ├── Quantera_Whitepaper_Web3.pdf
+│   └── Quantera_Whitepaper.md
+│
+├── docs/
+│   ├── tokenomics_v1.md
+│   └── roadmap_v1.md
+│
+└── assets/
+    └── logo.png
+```
+
+---
+
+# Contributing
+
+Contributions are welcome.  
+Open an issue or submit a PR.
+
+---
+
+#  License
+
+This project is licensed under the **MIT License**.
+
+---
+
+#  Official Links (placeholder)
+
+- Website: Coming soon  
+- Documentation Hub: Coming soon  
+
