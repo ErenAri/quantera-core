@@ -1,4 +1,4 @@
-# Quantera (QNR) Whitepaper v1 — Simple Professional Edition
+# Quantera (QNR) Whitepaper 
 
 ## 1. Introduction
 Quantera (QNR) is a next‑generation Web3 utility and governance token designed for modular, scalable, and community‑driven ecosystems.
